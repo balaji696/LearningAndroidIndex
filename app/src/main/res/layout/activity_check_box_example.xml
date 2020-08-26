@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxExample">
+
+  <TextView
+      android:id="@+id/selectBiscuitId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="80dp"
+      android:layout_marginBottom="32dp"
+      android:text="SELECT THE BISCUTE"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/resultButtonId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RESULT"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.642" />
+
+  <LinearLayout
+      android:id="@+id/linearLayout"
+      android:layout_width="399dp"
+      android:layout_height="172dp"
+      android:layout_marginTop="12dp"
+      android:layout_marginBottom="6dp"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toTopOf="@+id/resultButtonId"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/selectBiscuitId">
+
+    <CheckBox
+        android:id="@+id/oreoCheckId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OREO" />
+
+    <CheckBox
+        android:id="@+id/parleCheckId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARLE" />
+
+    <CheckBox
+        android:id="@+id/britaniyaCheckId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BRITANIYA" />
+
+    <CheckBox
+        android:id="@+id/fiftyCheckId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5050" />
+
+    <CheckBox
+        android:id="@+id/nutrichoiceCheckId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUTRICHOICE" />
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

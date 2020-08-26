@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">LearningAndroidIndex</string>
+    <string name="android_learning">ANDROID LEARNING</string>
+    <string name="welcome_to_progress_bar_section">welcome to progress bar section</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="load_page">LOAD PAGE</string>
+    <string name="enter_the_link">Enter the link</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+    <string name="search">search</string>
+    <string name="delete">delete</string>
+    <string name="button">Button</string>
+    <string name="context_menu">context menu</string>
+    <string name="popup_menu">POPUP MENU</string>
+
+
+    <string-array name="indexing">
+        <item>1.MOVE TO CHECKBOXEXAMPLE</item>
+        <item>2.MOVE TO RADIO BUTTON EXAMPLE</item>
+        <item>3.MOVE TO PROGRESS BAR ACTIVITY</item>
+        <item>4.MOVE TO RATING BAR ACTIVITY</item>
+        <item>5.MOVE TO SEEK BAR ACTIVITY</item>
+        <item>6.MOVE TO SPINNER ACTIVITY</item>
+        <item>7.WEB VIEW</item>
+        <item>8.ALERT DIALOG BOX</item>
+        <item>9.ContextMenuExample</item>
+
+    </string-array>
+
+    <string-array name="language">
+        <item>tamil</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>German</item>
+        <item>Spanish</item>
+    </string-array>
+</resources>
